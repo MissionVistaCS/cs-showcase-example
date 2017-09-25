@@ -1,0 +1,57 @@
+*, body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+h1:hover {
+    background-color: forestgreen;
+    color: black;
+}
+
+.classes {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.class {
+    position: relative;
+    width: 300px;
+    height: 265px;
+    border: solid;
+    margin: 5px;
+}
+
+.class:hover {
+    color: forestgreen;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.class > span {
+    position: absolute;
+    bottom: 0;
+    margin: 2px;
+}
+
+img {
+    position: absolute;
+    width: 300px;
+}
+
+.quote {
+    margin-top: 10px;
+    text-align: center;
+}
